@@ -1,0 +1,63 @@
+/* mobile && tablet */
+@media (max-width: 1023px) {
+    .category-item {
+        display: none;
+    }
+
+    .overlay {
+        height: 23.6px;
+    }
+    
+}
+
+/* m */
+@media (min-width: 739px) and (max-width: 1023px) {
+    .play-song_first {
+        width: 200px;
+    }
+    .play-song_name {
+        max-width: 100px;
+    }
+}
+
+@media (max-width: 739px) {
+    .container {
+       margin-top: -8px;
+    }
+
+    .content_body-first {
+        width: 200px;
+    }
+    .content_body-song-name {
+        width: 100px;
+    }
+    .content_body-sound-quantity {
+        width: 200px
+    }
+
+
+    .play-song_name {
+        max-width: 150px;
+    }
+
+    .play-song_img {
+        display: none;
+    }
+
+    .play-song_btn {
+       padding-right: 14px;
+    }
+    .input_process {
+        width: 150px;
+    }
+
+    .play-song_sound {
+        display: none;
+    }
+
+    .overlay {
+        margin-top: 0;
+    }
+
+}
+
